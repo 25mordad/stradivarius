@@ -1,0 +1,540 @@
+a {
+  text-decoration: none;
+}
+/* -- Normal CSS --*/
+html {
+  box-sizing: border-box;
+}
+
+div,
+main,
+aside,
+section,
+span,
+p,
+input,
+select,
+textarea,
+button {
+  box-sizing: border-box;
+}
+
+.m4 {
+  margin: 1.5rem;
+}
+
+.mx4 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.my4 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mt1 {
+  margin-top: 0.5rem;
+}
+
+.mt4 {
+  margin-top: 1.5rem;
+}
+
+.p1 {
+  padding: 0.1rem;
+}
+
+.px2 {
+  padding-left: 12.5rem;
+  padding-right: 12.5rem;
+}
+
+.py2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pt2 {
+  padding-top: 0.5rem;
+}
+
+.pr2 {
+  padding-right: 0.5rem;
+}
+
+.pb2 {
+  padding-bottom: 0.5rem;
+}
+
+.pl2 {
+  padding-left: 0.5rem;
+}
+
+/* -- 4 -- */
+.p3 {
+  padding: 1rem;
+}
+
+.p4 {
+  padding: 1.5rem;
+}
+
+.py4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pt4 {
+  padding-top: 1.5rem;
+}
+
+.pr4 {
+  padding-right: 1.5rem;
+}
+
+.pb4 {
+  padding-bottom: 1.5rem;
+}
+
+.pl4 {
+  padding-left: 3rem;
+}
+
+/* -- Text Alignment -- */
+
+.left-text {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* -- Vertical Alignment -- */
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-bottom {
+  vertical-align: bottom;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* -- Floats --*/
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.clear::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+/* -- / Positions -- */
+
+.xs-col-1 {
+  width: 8.333333%;
+}
+
+.xs-col-2 {
+  width: 16.666667%;
+}
+
+.xs-col-3 {
+  width: 25%;
+}
+
+.xs-col-4 {
+  width: 33.333333%;
+}
+
+.xs-col-5 {
+  width: 41.666667%;
+}
+
+.xs-col-6 {
+  width: 50%;
+}
+
+.xs-col-7 {
+  width: 58.333333%;
+}
+
+.xs-col-8 {
+  width: 66.666667%;
+}
+
+.xs-col-9 {
+  width: 75%;
+}
+
+.xs-col-10 {
+  width: 83.333333%;
+}
+
+.xs-col-11 {
+  width: 91.666667%;
+}
+
+.xs-col-12 {
+  width: 100%;
+}
+/* -- Displays CSS --*/
+
+.hide {
+  display: none;
+}
+
+.flex {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+/* -- Flex -- */
+
+.flex-column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 0rem) and (max-width: 40rem) {
+  .xs-hide {
+    display: none;
+  }
+  .xs-ma-w {
+    max-width: 230px;
+  }
+
+  .xs-max-w {
+    max-width: 200px;
+  }
+  .xs-p0 {
+    padding: 0;
+  }
+
+  .xs-m0 {
+    margin: 0;
+  }
+
+  .xs-pl0 {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 40.1rem) and (max-width: 52rem) {
+  .sm-col-1 {
+    width: 8.333333%;
+  }
+
+  .sm-col-2 {
+    width: 16.666667%;
+  }
+
+  .sm-col-3 {
+    width: 25%;
+  }
+
+  .sm-col-4 {
+    width: 33.333333%;
+  }
+
+  .sm-col-5 {
+    width: 41.666667%;
+  }
+
+  .sm-col-6 {
+    width: 50%;
+  }
+
+  .sm-col-7 {
+    width: 58.333333%;
+  }
+
+  .sm-col-8 {
+    width: 66.666667%;
+  }
+
+  .sm-col-9 {
+    width: 75%;
+  }
+
+  .sm-col-10 {
+    width: 83.333333%;
+  }
+
+  .sm-col-11 {
+    width: 91.666667%;
+  }
+
+  .sm-col-12 {
+    width: 100%;
+  }
+
+  .sm-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 52.1rem) and (max-width: 64rem) {
+  /* -- Cols --*/
+  .md-col-1 {
+    width: 8.333333%;
+  }
+
+  .md-col-2 {
+    width: 16.666667%;
+  }
+
+  .md-col-3 {
+    width: 25%;
+  }
+
+  .md-col-4 {
+    width: 33.333333%;
+  }
+
+  .md-col-5 {
+    width: 41.666667%;
+  }
+
+  .md-col-6 {
+    width: 50%;
+  }
+
+  .md-col-7 {
+    width: 58.333333%;
+  }
+
+  .md-col-8 {
+    width: 66.666667%;
+  }
+
+  .md-col-9 {
+    width: 75%;
+  }
+
+  .md-col-10 {
+    width: 83.333333%;
+  }
+
+  .md-col-11 {
+    width: 91.666667%;
+  }
+
+  .md-col-12 {
+    width: 100%;
+  }
+
+  /* -- Displays --*/
+  .md-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 64.1rem) {
+  /* -- Cols --*/
+  .lg-col-1 {
+    width: 8.333333%;
+  }
+
+  .lg-col-2 {
+    width: 16.666667%;
+  }
+
+  .lg-col-3 {
+    width: 25%;
+  }
+
+  .lg-col-4 {
+    width: 33.333333%;
+  }
+
+  .lg-col-5 {
+    width: 41.666667%;
+  }
+
+  .lg-col-6 {
+    width: 50%;
+  }
+
+  .lg-col-7 {
+    width: 58.333333%;
+  }
+
+  .lg-col-8 {
+    width: 66.666667%;
+  }
+
+  .lg-col-9 {
+    width: 75%;
+  }
+
+  .lg-col-10 {
+    width: 83.333333%;
+  }
+
+  .lg-col-11 {
+    width: 91.666667%;
+  }
+
+  .lg-col-12 {
+    width: 100%;
+  }
+  .lg-my {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .lg-pl4 {
+    padding-left: 4rem;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* -- Displays --*/
+  .lg-hide {
+    display: none;
+  }
+}
+
+.page-h {
+  height: 100vh;
+}
+
+.min-h {
+  min-height: 80vh;
+}
+
+.min-h-b {
+  height: 60vh;
+}
+.logo-w {
+  width: 5rem;
+}
+.svg-w {
+  max-width: 35rem;
+}
+.icon-wl {
+  width: 2rem;
+}
+.icon-w {
+  width: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-pic {
+  border-radius: 10px 10px 0px 0px;
+}
+.card {
+  border-radius: 10px 10px 10px 10px;
+}
+.over-hide {
+  overflow: hidden;
+}
+.card-h {
+  min-height: 60vh;
+}
+.box-shadow {
+  box-shadow: 0px 3px 7px #242424;
+}
+.box-shadow:hover {
+  box-shadow: 0px 7px 14px #61636b;
+  -webkit-box-shadow: 0px 7px 14px #61636b; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 7px 14px #61636b; /* Firefox 3.5 - 3.6 */
+}
+.line-h {
+  height: 1.3rem;
+  overflow: hidden;
+}
+
+.z-1 {
+  position: relative;
+  z-index: -10;
+}
+
+.mini-box {
+  position: absolute;
+  object-fit: cover;
+  min-height: auto;
+  height: 50%;
+  width: 50.2%;
+}
+
+.debug {
+  border: 1px solid red;
+}
